@@ -1,0 +1,40 @@
+.sign-form{
+    padding: 40px 30px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    background-color: var(--Cyan);
+    grid-column: 1/2;
+    
+}
+
+
+.price {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.price > p:first-child {
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 10px
+}
+.price > p:last-child {
+    opacity: 0.4;
+    font-weight: 100;
+}
+.sign-form > p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.sign-form__btn {
+    border: none;
+    background-color: var(--BrightYellow);
+    width: 100%;
+    height: 40px ;
+    border-radius: 5px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 
+    0px 3px 8px;
+}

@@ -1,0 +1,5 @@
+.subscription {
+    background-color: var(--Cyan);
+    box-sizing: border-box;
+    padding: 40px;
+}
