@@ -15,8 +15,9 @@ header{
 }
 .header__subtitle {
     font-weight: 500;
+    font-size: 17px;
     color: var(--BrightYellow);
-    margin: 11px 0;
+    margin: 10px 0;
 
 }
 header > p {
