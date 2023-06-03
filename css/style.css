@@ -3,6 +3,9 @@
 @import url(reset.css);
 @import url(var.css);
 
+/* screen */
+
+@import url(screen/mobile.css);
 /* components */
 
 @import url(components/header.css);
@@ -34,3 +37,8 @@ h2 {
 }
 
 
+@media (width:375px) {
+    body{
+        background-color:black;
+    }
+}
